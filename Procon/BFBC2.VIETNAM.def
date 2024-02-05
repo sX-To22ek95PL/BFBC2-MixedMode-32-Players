@@ -1,0 +1,254 @@
+/////////////////////////////////////////////
+// This definitions file will be overwritten during an update.
+//
+// This file contains the standard defintions required to run procon 
+// connected to a BFBC2 server
+/////////////////////////////////////////////
+
+procon.protected.serverversions.clear BFBC2
+procon.protected.serverversions.add BFBC2 "571287" "R21"
+procon.protected.serverversions.add BFBC2 "581637" "R22"
+procon.protected.serverversions.add BFBC2 "584642" "R23"
+procon.protected.serverversions.add BFBC2 "593485" "R24"
+procon.protected.serverversions.add BFBC2 "602833" "R25"
+procon.protected.serverversions.add BFBC2 "609063" "R26"
+procon.protected.serverversions.add BFBC2 "617877" "R27"
+procon.protected.serverversions.add BFBC2 "621775" "R28"
+procon.protected.serverversions.add BFBC2 "638140" "R30"
+procon.protected.serverversions.add BFBC2 "720174" "R32"
+procon.protected.serverversions.add BFBC2 "851434" "R34"
+
+procon.protected.specialization.clear
+procon.protected.specialization.add Vehicle "sp_vehmosens"
+procon.protected.specialization.add Vehicle "sp_harveharm"
+procon.protected.specialization.add Vehicle "sp_vreload"
+procon.protected.specialization.add Vehicle "sp_vdamage"
+procon.protected.specialization.add Vehicle "sp_tnsmk"
+procon.protected.specialization.add Vehicle "sp_tnzm"
+procon.protected.specialization.add Vehicle "sp_coaxmg"
+procon.protected.specialization.add Generic "sp_sprint"
+procon.protected.specialization.add Generic "sp_bodarm"
+procon.protected.specialization.add Generic "sp_buldmplus"
+procon.protected.specialization.add Generic "sp_expdmplus"
+procon.protected.specialization.add Generic "sp_assault_a"
+procon.protected.specialization.add Generic "sp_shotgun_c"
+procon.protected.specialization.add Generic "sp_shotgun_s"
+procon.protected.specialization.add Generic "sp_expsupp"
+procon.protected.specialization.add Generic "sp_assault_s"
+procon.protected.specialization.add Generic "sp_ammsupp"
+procon.protected.specialization.add Generic "sp_grsupp"
+procon.protected.specialization.add Kit "sp_medheal"
+procon.protected.specialization.add Kit "sp_sczmplus"
+procon.protected.specialization.add Kit "sp_medradius"
+procon.protected.specialization.add Kit "sp_spscope"
+
+procon.protected.specialization.add Generic "sp_assault_r"
+procon.protected.specialization.add Generic "sp_lmg_aim"
+procon.protected.specialization.add Generic "sp_lmg_r"
+procon.protected.specialization.add Generic "sp_smg_a"
+procon.protected.specialization.add Generic "sp_smg_r"
+procon.protected.specialization.add Generic "sp_smg_s"
+procon.protected.specialization.add Generic "sp_sniper_s"
+procon.protected.specialization.add Generic "sp_sniper_r"
+
+procon.protected.weapons.clear
+
+// Assault
+procon.protected.weapons.add Assault "M16A1V" Primary AssaultRifle
+procon.protected.weapons.add Assault "AK47V" Primary AssaultRifle
+procon.protected.weapons.add Assault "M79V" Primary AssaultRifle
+
+// Engineer
+procon.protected.weapons.add Demolition "MAC10V" Primary SMG
+procon.protected.weapons.add Demolition "PPSHV" Primary SMG
+procon.protected.weapons.add Demolition "UZIV" Primary SMG
+procon.protected.weapons.add Demolition "ATM-00" Secondary Explosive
+procon.protected.weapons.add Demolition "RPG7" Secondary ProjectileExplosive
+procon.protected.weapons.add Support "TORCHV" Secondary Melee
+
+// Medic
+procon.protected.weapons.add Support "M60V" Primary LMG
+procon.protected.weapons.add Support "RPKV" Primary LMG
+procon.protected.weapons.add Support "XM22V" Primary LMG
+procon.protected.weapons.add Support "SYRINGEV" Secondary Melee
+
+// Recon
+procon.protected.weapons.add Recon "M21V" Primary SniperRifle
+procon.protected.weapons.add Recon "SVDV" Primary SniperRifle
+procon.protected.weapons.add Recon "M40V" Primary SniperRifle
+procon.protected.weapons.add Recon "TNTV" Secondary Explosive
+procon.protected.weapons.add Recon "MORTARV" Secondary Explosive
+
+// All
+procon.protected.weapons.add None "TT33V" Auxiliary Handgun
+procon.protected.weapons.add None "M1911" Auxiliary Handgun
+
+procon.protected.weapons.add None "870MCS" Primary Shotgun
+procon.protected.weapons.add None "M1A1 Thompson" Primary SMG
+
+procon.protected.weapons.add None "knv-1" Secondary Melee
+
+// Vehicles
+
+procon.protected.weapons.add None "roadkill" Primary Melee
+
+procon.protected.weapons.add Assault "M14V" Primary AssaultRifle
+procon.protected.weapons.add Assault "M1A1 Thompson" Primary SMG
+procon.protected.weapons.add Assault "M2V" Primary AssaultRifle
+
+procon.protected.weapons.add None "t54v#maincannon" Primary VehicleHeavy
+procon.protected.weapons.add None "t54v#topgun" Secondary VehicleHeavy
+
+procon.protected.weapons.add None "m48v#maincannon" Primary VehicleHeavy
+procon.protected.weapons.add None "m48v#topgun" Secondary VehicleHeavy
+
+procon.protected.weapons.add None "flamethrower" Auxiliary VehicleHeavy
+
+procon.protected.weapons.add None "hueyv#rocketpod right" Primary VehicleAir
+procon.protected.weapons.add None "hueyv#rocketpod left" Primary VehicleAir
+procon.protected.weapons.add None "hueyv#m60" Secondary VehicleAir
+
+procon.protected.weapons.add None "m151v#hmg" Secondary VehicleLight
+
+
+
+procon.protected.maps.clear
+procon.protected.maps.add "CONQUEST" "levels/nam_mp_002cq" "Conquest" "Vantage Point" 0
+procon.protected.maps.add "CONQUEST" "levels/nam_mp_003cq" "Conquest" "Hill 137" 0
+procon.protected.maps.add "CONQUEST" "levels/nam_mp_005cq" "Conquest" "Cao Son Temple" 0
+procon.protected.maps.add "CONQUEST" "levels/nam_mp_006cq" "Conquest" "Phu Bai Valley" 0
+procon.protected.maps.add "CONQUEST" "levels/nam_mp_007cq" "Conquest" "Operation Hastings" 0
+//
+procon.protected.maps.add "RUSH" "levels/nam_mp_002r" "Rush" "Vantage Point" 0
+procon.protected.maps.add "RUSH" "levels/nam_mp_003r" "Rush" "Hill 137" 0
+procon.protected.maps.add "RUSH" "levels/nam_mp_005r" "Rush" "Cao Son Temple" 0
+procon.protected.maps.add "RUSH" "levels/nam_mp_006r" "Rush" "Phu Bai Valley" 0
+procon.protected.maps.add "RUSH" "levels/nam_mp_007r" "Rush" "Operation Hastings" 0
+//
+procon.protected.maps.add "SQRUSH" "levels/nam_mp_002sr" "Squadrush" "Vantage Point" 0
+procon.protected.maps.add "SQRUSH" "levels/nam_mp_003sr" "Squadrush" "Hill 137" 0
+procon.protected.maps.add "SQRUSH" "levels/nam_mp_005sr" "Squadrush" "Cao Son Temple" 0
+procon.protected.maps.add "SQRUSH" "levels/nam_mp_006sr" "Squadrush" "Phu Bai Valley" 0
+procon.protected.maps.add "SQRUSH" "levels/nam_mp_007sr" "Squadrush" "Operation Hastings" 0
+//
+procon.protected.maps.add "SQDM" "levels/nam_mp_002sdm" "Squad Deathmatch" "Vantage Point" 0
+procon.protected.maps.add "SQDM" "levels/nam_mp_003sdm" "Squad Deathmatch" "Hill 137" 0
+procon.protected.maps.add "SQDM" "levels/nam_mp_005sdm" "Squad Deathmatch" "Cao Son Temple" 0
+procon.protected.maps.add "SQDM" "levels/nam_mp_006sdm" "Squad Deathmatch" "Phu Bai Valley" 0
+procon.protected.maps.add "SQDM" "levels/nam_mp_007sdm" "Squad Deathmatch" "Operation Hastings" 0
+
+
+procon.protected.teamnames.clear
+// Conquest
+procon.protected.teamnames.add "levels/nam_mp_002cq" 0 "global.conquest.neutral" ""
+procon.protected.teamnames.add "levels/nam_mp_002cq" 1 "global.conquest.us" "us.png"
+procon.protected.teamnames.add "levels/nam_mp_002cq" 2 "global.conquest.nva" "nva.png"
+//
+procon.protected.teamnames.add "levels/nam_mp_003cq" 0 "global.conquest.neutral" ""
+procon.protected.teamnames.add "levels/nam_mp_003cq" 1 "global.conquest.us" "us.png"
+procon.protected.teamnames.add "levels/nam_mp_003cq" 2 "global.conquest.nva" "nva.png"
+//
+procon.protected.teamnames.add "levels/nam_mp_005cq" 0 "global.conquest.neutral" ""
+procon.protected.teamnames.add "levels/nam_mp_005cq" 1 "global.conquest.us" "us.png"
+procon.protected.teamnames.add "levels/nam_mp_005cq" 2 "global.conquest.nva" "nva.png"
+//
+procon.protected.teamnames.add "levels/nam_mp_006cq" 0 "global.conquest.neutral" ""
+procon.protected.teamnames.add "levels/nam_mp_006cq" 1 "global.conquest.us" "us.png"
+procon.protected.teamnames.add "levels/nam_mp_006cq" 2 "global.conquest.nva" "nva.png"
+//
+procon.protected.teamnames.add "levels/nam_mp_007cq" 0 "global.conquest.neutral" ""
+procon.protected.teamnames.add "levels/nam_mp_007cq" 1 "global.conquest.us" "us.png"
+procon.protected.teamnames.add "levels/nam_mp_007cq" 2 "global.conquest.nva" "nva.png"
+// Rush
+procon.protected.teamnames.add "levels/nam_mp_002r" 0 "global.rush.neutral" ""
+procon.protected.teamnames.add "levels/nam_mp_002r" 1 "global.rush.defenders" "us.png"
+procon.protected.teamnames.add "levels/nam_mp_002r" 2 "global.rush.attackers" "nva.png"
+//
+procon.protected.teamnames.add "levels/nam_mp_003r" 0 "global.rush.neutral" ""
+procon.protected.teamnames.add "levels/nam_mp_003r" 1 "global.rush.attackers" "us.png"
+procon.protected.teamnames.add "levels/nam_mp_003r" 2 "global.rush.defenders" "nva.png"
+//
+procon.protected.teamnames.add "levels/nam_mp_005r" 0 "global.rush.neutral" ""
+procon.protected.teamnames.add "levels/nam_mp_005r" 1 "global.rush.attackers" "us.png"
+procon.protected.teamnames.add "levels/nam_mp_005r" 2 "global.rush.defenders" "nva.png"
+//
+procon.protected.teamnames.add "levels/nam_mp_006r" 0 "global.rush.neutral" ""
+procon.protected.teamnames.add "levels/nam_mp_006r" 1 "global.rush.attackers" "us.png"
+procon.protected.teamnames.add "levels/nam_mp_006r" 2 "global.rush.defenders" "nva.png"
+//
+procon.protected.teamnames.add "levels/nam_mp_007r" 0 "global.rush.neutral" ""
+procon.protected.teamnames.add "levels/nam_mp_007r" 1 "global.rush.attackers" "us.png"
+procon.protected.teamnames.add "levels/nam_mp_007r" 2 "global.rush.defenders" "nva.png"
+// SquadRush
+procon.protected.teamnames.add "levels/nam_mp_002sr" 0 "global.rush.neutral" ""
+procon.protected.teamnames.add "levels/nam_mp_002sr" 1 "global.rush.defenders" "us.png"
+procon.protected.teamnames.add "levels/nam_mp_002sr" 2 "global.rush.attackers" "nva.png"
+//
+procon.protected.teamnames.add "levels/nam_mp_003sr" 0 "global.rush.neutral" ""
+procon.protected.teamnames.add "levels/nam_mp_003sr" 1 "global.rush.attackers" "us.png"
+procon.protected.teamnames.add "levels/nam_mp_003sr" 2 "global.rush.defenders" "nva.png"
+//
+procon.protected.teamnames.add "levels/nam_mp_005sr" 0 "global.rush.neutral" ""
+procon.protected.teamnames.add "levels/nam_mp_005sr" 1 "global.rush.attackers" "us.png"
+procon.protected.teamnames.add "levels/nam_mp_005sr" 2 "global.rush.defenders" "nva.png"
+//
+procon.protected.teamnames.add "levels/nam_mp_006sr" 0 "global.rush.neutral" ""
+procon.protected.teamnames.add "levels/nam_mp_006sr" 1 "global.rush.attackers" "us.png"
+procon.protected.teamnames.add "levels/nam_mp_006sr" 2 "global.rush.defenders" "nva.png"
+//
+procon.protected.teamnames.add "levels/nam_mp_007sr" 0 "global.rush.neutral" ""
+procon.protected.teamnames.add "levels/nam_mp_007sr" 1 "global.rush.attackers" "us.png"
+procon.protected.teamnames.add "levels/nam_mp_007sr" 2 "global.rush.defenders" "nva.png"
+// SquadDeathMatch
+procon.protected.teamnames.add "levels/nam_mp_002sdm" 0 "global.rush.neutral" ""
+procon.protected.teamnames.add "levels/nam_mp_002sdm" 1 "global.Squad1" "us.png"
+procon.protected.teamnames.add "levels/nam_mp_002sdm" 2 "global.Squad2" "nva.png"
+procon.protected.teamnames.add "levels/nam_mp_002sdm" 3 "global.Squad3" "nva.png"
+procon.protected.teamnames.add "levels/nam_mp_002sdm" 4 "global.Squad4" "nva.png"
+//
+procon.protected.teamnames.add "levels/nam_mp_003sdm" 0 "global.rush.neutral" ""
+procon.protected.teamnames.add "levels/nam_mp_003sdm" 1 "global.Squad1" "us.png"
+procon.protected.teamnames.add "levels/nam_mp_003sdm" 2 "global.Squad2" "nva.png"
+procon.protected.teamnames.add "levels/nam_mp_003sdm" 3 "global.Squad3" "nva.png"
+procon.protected.teamnames.add "levels/nam_mp_003sdm" 4 "global.Squad4" "nva.png"
+//
+procon.protected.teamnames.add "levels/nam_mp_005sdm" 0 "global.rush.neutral" ""
+procon.protected.teamnames.add "levels/nam_mp_005sdm" 1 "global.Squad1" "us.png"
+procon.protected.teamnames.add "levels/nam_mp_005sdm" 2 "global.Squad2" "nva.png"
+procon.protected.teamnames.add "levels/nam_mp_005sdm" 3 "global.Squad3" "nva.png"
+procon.protected.teamnames.add "levels/nam_mp_005sdm" 4 "global.Squad4" "nva.png"
+//
+procon.protected.teamnames.add "levels/nam_mp_006sdm" 0 "global.rush.neutral" ""
+procon.protected.teamnames.add "levels/nam_mp_006sdm" 1 "global.Squad1" "us.png"
+procon.protected.teamnames.add "levels/nam_mp_006sdm" 2 "global.Squad2" "nva.png"
+procon.protected.teamnames.add "levels/nam_mp_006sdm" 3 "global.Squad3" "nva.png"
+procon.protected.teamnames.add "levels/nam_mp_006sdm" 4 "global.Squad4" "nva.png"
+//
+procon.protected.teamnames.add "levels/nam_mp_007sdm" 0 "global.rush.neutral" ""
+procon.protected.teamnames.add "levels/nam_mp_007sdm" 1 "global.Squad1" "us.png"
+procon.protected.teamnames.add "levels/nam_mp_007sdm" 2 "global.Squad2" "nva.png"
+procon.protected.teamnames.add "levels/nam_mp_007sdm" 3 "global.Squad3" "nva.png"
+procon.protected.teamnames.add "levels/nam_mp_007sdm" 4 "global.Squad4" "nva.png"
+//
+
+
+procon.protected.tasks.clear
+procon.protected.tasks.add "procon" 0 30 -1 procon.protected.send serverInfo
+procon.protected.tasks.add "procon" 0 30 -1 procon.protected.send admin.listPlayers all
+procon.protected.tasks.add "procon" 0 60 -1 procon.protected.send mapList.nextLevelIndex
+procon.protected.tasks.add "procon" 0 90 -1 procon.protected.send punkBuster.pb_sv_command pb_sv_plist
+
+procon.protected.vars.set TEMP_BAN_CEILING 3600
+procon.protected.vars.set MAX_CONSOLE_LINES 100
+procon.protected.vars.set MAX_PLUGINCONSOLE_LINES 100
+procon.protected.vars.set MAX_CHAT_LINES 100
+procon.protected.vars.set MAX_PUNKBUSTERCONSOLE_LINES 200
+procon.protected.vars.set TEXT_COLOUR_1 "Maroon"
+procon.protected.vars.set TEXT_COLOUR_2 "MediumSeaGreen"
+procon.protected.vars.set TEXT_COLOUR_3 "DarkOrange"
+procon.protected.vars.set TEXT_COLOUR_4 "RoyalBlue"
+procon.protected.vars.set TEXT_COLOUR_5 "CornflowerBlue"
+procon.protected.vars.set TEXT_COLOUR_6 "DarkViolet"
+procon.protected.vars.set TEXT_COLOUR_7 "DeepPink"
+procon.protected.vars.set TEXT_COLOUR_8 "Red"
+procon.protected.vars.set TEXT_COLOUR_9 "Gray"
