@@ -4,7 +4,7 @@
 // This file contains the standard defintions required to run procon 
 // connected to a BFBC2 server
 // This File was modified and includes all content of the default
-// BFBC2.def to support Vietnam Weapons/Maps as well
+// BFBC2.def to support Vietnam Weapons as well
 /////////////////////////////////////////////
 
 procon.protected.serverversions.clear BFBC2
@@ -33,8 +33,8 @@ procon.protected.specialization.add Generic "sp_bodarm"
 procon.protected.specialization.add Generic "sp_buldmplus"
 procon.protected.specialization.add Generic "sp_expdmplus"
 procon.protected.specialization.add Generic "sp_assault_a"
-procon.protected.specialization.add Generic "sp_shotgun_f"
 procon.protected.specialization.add Generic "sp_shotgun_c"
+procon.protected.specialization.add Generic "sp_shotgun_f"
 procon.protected.specialization.add Generic "sp_shotgun_s"
 procon.protected.specialization.add Generic "sp_expsupp"
 procon.protected.specialization.add Generic "sp_assault_s"
@@ -62,7 +62,7 @@ procon.protected.weapons.add Assault "AUG" Primary AssaultRifle
 procon.protected.weapons.add Assault "AN94" Primary AssaultRifle
 procon.protected.weapons.add Assault "M416" Primary AssaultRifle
 procon.protected.weapons.add Assault "M16" Primary AssaultRifle
-procon.protected.weapons.add Assault "M16K" Primary AssaultRifle
+procon.protected.weapons.add Assault "M16k" Primary AssaultRifle
 procon.protected.weapons.add Assault "40mmgl" Secondary ProjectileExplosive
 procon.protected.weapons.add Assault "40mmsg" Secondary Shotgun
 procon.protected.weapons.add Assault "40mmsmk" Secondary Impact
@@ -73,12 +73,12 @@ procon.protected.weapons.add Demolition "AKS74u" Primary SMG
 procon.protected.weapons.add Demolition "UZI" Primary SMG
 procon.protected.weapons.add Demolition "PP2000" Primary SMG
 procon.protected.weapons.add Demolition "UMP" Primary SMG
-procon.protected.weapons.add Demolition "UMPK" Primary SMG
+procon.protected.weapons.add Demolition "UMPk" Primary SMG
 procon.protected.weapons.add Demolition "RPG7" Secondary ProjectileExplosive
 procon.protected.weapons.add Demolition "M2CG" Secondary ProjectileExplosive
 procon.protected.weapons.add Demolition "M136" Secondary ProjectileExplosive
 procon.protected.weapons.add Demolition "ATM-00" Secondary Explosive
-procon.protected.weapons.add Demolition "pwr-700" Secondary Melee
+procon.protected.weapons.add Demolition "PWR-700" Secondary Melee
 procon.protected.weapons.add Support "PKM" Primary LMG
 procon.protected.weapons.add Support "M249" Primary LMG
 procon.protected.weapons.add Support "QJU88" Primary LMG
@@ -99,7 +99,7 @@ procon.protected.weapons.add Recon "M95K" Primary SniperRifle
 procon.protected.weapons.add Recon "MRTR-5" Secondary Explosive
 procon.protected.weapons.add None "870MCS" Primary Shotgun
 procon.protected.weapons.add None "ns2000" Primary Shotgun
-procon.protected.weapons.add None "usas12" Primary Shotgun
+procon.protected.weapons.add None "USAS12" Primary Shotgun
 procon.protected.weapons.add None "SPAS12" Primary Shotgun
 procon.protected.weapons.add None "S20K" Primary Shotgun
 procon.protected.weapons.add None "Mk14EBR" Primary AssaultRifle
@@ -114,14 +114,14 @@ procon.protected.weapons.add None "MP412" Auxiliary Handgun
 procon.protected.weapons.add None "M9-3" Auxiliary Handgun
 procon.protected.weapons.add None "TRCR-357" Auxiliary Nonlethal
 procon.protected.weapons.add None "HG-2" Auxiliary Explosive
-procon.protected.weapons.add None "knv-1" Secondary Melee
+procon.protected.weapons.add None "KNV-1" Secondary Melee
 procon.protected.weapons.add None "life-33" Auxiliary Nonlethal
 procon.protected.weapons.add None "ammo-2" Auxiliary Nonlethal
 procon.protected.weapons.add None "mtn-55" Auxiliary Nonlethal
 
 // Vehicles
-procon.protected.weapons.add None "roadkill" Primary Melee
-procon.protected.weapons.add None "d2.0" Primary Melee
+procon.protected.weapons.add None "ROADKILL" Primary Melee
+procon.protected.weapons.add None "D2.0" Primary Melee
 
 // Vehicles.Stationary
 procon.protected.weapons.add None "zu23#cannons" Primary VehicleStationary
@@ -129,36 +129,36 @@ procon.protected.weapons.add None "korn#missile launcher" Primary VehicleStation
 procon.protected.weapons.add None "tow2#launcher" Primary VehicleStationary
 procon.protected.weapons.add None "x312#gun" Primary VehicleStationary
 procon.protected.weapons.add None "kord#gun" Primary VehicleStationary
-procon.protected.weapons.add None "vads#autocannon" Primary VehicleStationary
+procon.protected.weapons.add None "VADS#AutoCannon" Primary VehicleStationary
 procon.protected.weapons.add None "x307#gun" Primary VehicleStationary
 
 // Vehicles.Water
 procon.protected.weapons.add None "pblb#gmg" Secondary VehicleWater
 
 // Vehicles.Air
-procon.protected.weapons.add None "mi28#dumbfirerocket starboard" Primary VehicleAir
-procon.protected.weapons.add None "mi28#dumbfirerocket port" Primary VehicleAir
-procon.protected.weapons.add None "mi28#gunnercannnon" Secondary VehicleAir
-procon.protected.weapons.add None "mi28#tow" Auxiliary VehicleAir
+procon.protected.weapons.add None "MI28#Dumbfirerocket starboard" Primary VehicleAir
+procon.protected.weapons.add None "MI28#Dumbfirerocket port" Primary VehicleAir
+procon.protected.weapons.add None "MI28#Gunnercannnon" Secondary VehicleAir
+procon.protected.weapons.add None "MI28#Tow" Auxiliary VehicleAir
 
-procon.protected.weapons.add None "mi24#gunnercannon" Secondary VehicleAir
+procon.protected.weapons.add None "MI24#GunnerCannon" Secondary VehicleAir
 
-procon.protected.weapons.add None "uav1#bomb" Primary VehicleAir
-procon.protected.weapons.add None "uav1#mg" Auxiliary VehicleAir
-procon.protected.weapons.add None "uav1#smoke" Auxiliary VehicleAir
+procon.protected.weapons.add None "UAV1#Bomb" Primary VehicleAir
+procon.protected.weapons.add None "UAV1#MG" Auxiliary VehicleAir
+procon.protected.weapons.add None "UAV1#Smoke" Auxiliary VehicleAir
 
-procon.protected.weapons.add None "mi28#rocketpod left" Primary VehicleAir
-procon.protected.weapons.add None "mi28#rocketpod right" Primary VehicleAir
-procon.protected.weapons.add None "mi28#heli autocannon" Secondary VehicleAir
-procon.protected.weapons.add None "mi28#tow" Auxiliary VehicleAir
+procon.protected.weapons.add None "MI28#Rocketpod left" Primary VehicleAir
+procon.protected.weapons.add None "MI28#Rocketpod right" Primary VehicleAir
+procon.protected.weapons.add None "MI28#Heli autocannon" Secondary VehicleAir
+procon.protected.weapons.add None "MI28#Tow" Auxiliary VehicleAir
 
-procon.protected.weapons.add None "ah64#rocketpod right" Primary VehicleAir
-procon.protected.weapons.add None "ah64#rocketpod left" Primary VehicleAir
-procon.protected.weapons.add None "ah64#heli autocannon" Secondary VehicleAir
-procon.protected.weapons.add None "ah64#tow" Auxiliary VehicleAir
+procon.protected.weapons.add None "AH64#RocketPod Right" Primary VehicleAir
+procon.protected.weapons.add None "AH64#RocketPod Left" Primary VehicleAir
+procon.protected.weapons.add None "AH64#Heli AutoCannon" Secondary VehicleAir
+procon.protected.weapons.add None "AH64#Tow" Auxiliary VehicleAir
 
-procon.protected.weapons.add None "ah60#minigun left" Secondary VehicleAir
-procon.protected.weapons.add None "ah60#minigun right" Secondary VehicleAir
+procon.protected.weapons.add None "AH60#minigun Left" Secondary VehicleAir
+procon.protected.weapons.add None "AH60#minigun Right" Secondary VehicleAir
 
 // Vehicles.Light
 procon.protected.weapons.add None "cobr#kord" Secondary VehicleLight
@@ -168,19 +168,19 @@ procon.protected.weapons.add None "cavj#xm-307" Secondary VehicleLight
 procon.protected.weapons.add None "cavj#kord" Secondary VehicleLight
 
 // Vehicles.Heavy
-procon.protected.weapons.add None "t90r#maingun" Primary VehicleHeavy
-procon.protected.weapons.add None "t90r#coaxmg" Auxiliary VehicleHeavy
-procon.protected.weapons.add None "t90r#remotegun" Secondary VehicleHeavy
+procon.protected.weapons.add None "T90r#MainGun" Primary VehicleHeavy
+procon.protected.weapons.add None "T90r#Coaxmg" Auxiliary VehicleHeavy
+procon.protected.weapons.add None "T90r#RemoteGun" Secondary VehicleHeavy
 
-procon.protected.weapons.add None "m1a2#maingun" Primary VehicleHeavy
-procon.protected.weapons.add None "m1a2#coaxmg" Auxiliary VehicleHeavy
-procon.protected.weapons.add None "m1a2#remotegun" Secondary VehicleHeavy
+procon.protected.weapons.add None "M1A2#MainGun" Primary VehicleHeavy
+procon.protected.weapons.add None "M1A2#Coaxmg" Auxiliary VehicleHeavy
+procon.protected.weapons.add None "M1A2#RemoteGun" Secondary VehicleHeavy
 
 procon.protected.weapons.add None "bmda#gmg" Primary VehicleHeavy
 procon.protected.weapons.add None "bmd3#ifvautocannon" Primary VehicleHeavy
 procon.protected.weapons.add None "bmd3#tow" Auxiliary VehicleHeavy
 procon.protected.weapons.add None "bmd3#remotemg" Secondary VehicleHeavy
-procon.protected.weapons.add None "bmda#cannon" Secondary VehicleHeavy
+procon.protected.weapons.add None "BMDA#Cannon" Secondary VehicleHeavy
 procon.protected.weapons.add None "bmd3#pfw rearright" Secondary VehicleHeavy
 procon.protected.weapons.add None "bmd3#pfw rearleft" Secondary VehicleHeavy
 
@@ -203,8 +203,8 @@ procon.protected.weapons.add Assault "M79V" Primary AssaultRifle
 procon.protected.weapons.add Demolition "MAC10V" Primary SMG
 procon.protected.weapons.add Demolition "PPSHV" Primary SMG
 procon.protected.weapons.add Demolition "UZIV" Primary SMG
-// procon.protected.weapons.add Demolition "ATM-00" Secondary Explosive
-// procon.protected.weapons.add Demolition "RPG7" Secondary ProjectileExplosive
+procon.protected.weapons.add Demolition "ATM-00" Secondary Explosive
+procon.protected.weapons.add Demolition "RPG7" Secondary ProjectileExplosive
 procon.protected.weapons.add Support "TORCHV" Secondary Melee
 
 // Medic
@@ -224,14 +224,14 @@ procon.protected.weapons.add Recon "MORTARV" Secondary Explosive
 procon.protected.weapons.add None "TT33V" Auxiliary Handgun
 procon.protected.weapons.add None "M1911" Auxiliary Handgun
 
-// procon.protected.weapons.add None "870MCS" Primary Shotgun
-// procon.protected.weapons.add None "M1A1 Thompson" Primary SMG
+procon.protected.weapons.add None "870MCS" Primary Shotgun
+procon.protected.weapons.add None "M1A1 Thompson" Primary SMG
 
-// procon.protected.weapons.add None "knv-1" Secondary Melee
+procon.protected.weapons.add None "KNV-1" Secondary Melee
 
 // Vehicles
 
-// procon.protected.weapons.add None "roadkill" Primary Melee
+procon.protected.weapons.add None "ROADKILL" Primary Melee
 
 procon.protected.weapons.add Assault "M14V" Primary AssaultRifle
 procon.protected.weapons.add Assault "M1A1 Thompson" Primary SMG
@@ -616,32 +616,31 @@ procon.protected.vars.set TEXT_COLOUR_9 "Gray"
 
 
 
-
 // Mixed Playlist for modded server
 
 // BC2
-procon.protected.maps.add "MIXED" "levels/mp_001" "Mixed" "Panama Canal" 0
-procon.protected.maps.add "MIXED" "levels/mp_003" "Mixed" "Laguna Alta" 0
-procon.protected.maps.add "MIXED" "levels/mp_005" "Mixed" "Atacama Desert" 0
-procon.protected.maps.add "MIXED" "levels/mp_006cq" "Mixed" "Arica Harbor" 0
-procon.protected.maps.add "MIXED" "levels/mp_007" "Mixed" "White Pass" 0
-procon.protected.maps.add "MIXED" "levels/mp_008cq" "Mixed" "Nelson Bay" 0
-procon.protected.maps.add "MIXED" "levels/mp_009cq" "Mixed" "Laguna Presa" 0
-procon.protected.maps.add "MIXED" "levels/mp_012cq" "Mixed" "Port Valdez" 0
-procon.protected.maps.add "MIXED" "levels/bc1_harvest_day_cq" "Mixed" "Harvest Day" 0
-procon.protected.maps.add "MIXED" "levels/bc1_oasis_cq" "Mixed" "Oasis" 0
-procon.protected.maps.add "MIXED" "levels/mp_sp_005cq" "Mixed" "Heavy Metal" 0
-procon.protected.maps.add "MIXED" "levels/mp_002" "Mixed" "Valparaíso" 0
-procon.protected.maps.add "MIXED" "levels/mp_004" "Mixed" "Isla Inocentes" 0
-procon.protected.maps.add "MIXED" "levels/mp_006" "Mixed" "Arica Harbor" 0
-procon.protected.maps.add "MIXED" "levels/mp_007gr" "Mixed" "White Pass" 0
-procon.protected.maps.add "MIXED" "levels/mp_008" "Mixed" "Nelson Bay" 0
-procon.protected.maps.add "MIXED" "levels/mp_009gr" "Mixed" "Laguna Presa" 0
-procon.protected.maps.add "MIXED" "levels/mp_012gr" "Mixed" "Port Valdez" 0
-procon.protected.maps.add "MIXED" "levels/mp_005gr" "Mixed" "Atacama Desert" 0
-procon.protected.maps.add "MIXED" "levels/bc1_harvest_day_gr" "Mixed" "Harvest Day" 0
-procon.protected.maps.add "MIXED" "levels/bc1_oasis_gr" "Mixed" "Oasis" 0
-procon.protected.maps.add "MIXED" "levels/mp_sp_002gr" "Mixed" "Cold War" 0
+procon.protected.maps.add "MIXED" "levels/mp_001" "Mixed" "Panama Canal" 1
+procon.protected.maps.add "MIXED" "levels/mp_003" "Mixed" "Laguna Alta" 1
+procon.protected.maps.add "MIXED" "levels/mp_005" "Mixed" "Atacama Desert" 1
+procon.protected.maps.add "MIXED" "levels/mp_006cq" "Mixed" "Arica Harbor" 1
+procon.protected.maps.add "MIXED" "levels/mp_007" "Mixed" "White Pass" 1
+procon.protected.maps.add "MIXED" "levels/mp_008cq" "Mixed" "Nelson Bay" 1
+procon.protected.maps.add "MIXED" "levels/mp_009cq" "Mixed" "Laguna Presa" 1
+procon.protected.maps.add "MIXED" "levels/mp_012cq" "Mixed" "Port Valdez" 1
+procon.protected.maps.add "MIXED" "levels/bc1_harvest_day_cq" "Mixed" "Harvest Day" 1
+procon.protected.maps.add "MIXED" "levels/bc1_oasis_cq" "Mixed" "Oasis" 1
+procon.protected.maps.add "MIXED" "levels/mp_sp_005cq" "Mixed" "Heavy Metal" 1
+procon.protected.maps.add "MIXED" "levels/mp_002" "Mixed" "Valparaíso" 2
+procon.protected.maps.add "MIXED" "levels/mp_004" "Mixed" "Isla Inocentes" 2
+procon.protected.maps.add "MIXED" "levels/mp_006" "Mixed" "Arica Harbor" 2
+procon.protected.maps.add "MIXED" "levels/mp_007gr" "Mixed" "White Pass" 2
+procon.protected.maps.add "MIXED" "levels/mp_008" "Mixed" "Nelson Bay" 2
+procon.protected.maps.add "MIXED" "levels/mp_009gr" "Mixed" "Laguna Presa" 2
+procon.protected.maps.add "MIXED" "levels/mp_012gr" "Mixed" "Port Valdez" 2
+procon.protected.maps.add "MIXED" "levels/mp_005gr" "Mixed" "Atacama Desert" 2
+procon.protected.maps.add "MIXED" "levels/bc1_harvest_day_gr" "Mixed" "Harvest Day" 2
+procon.protected.maps.add "MIXED" "levels/bc1_oasis_gr" "Mixed" "Oasis" 2
+procon.protected.maps.add "MIXED" "levels/mp_sp_002gr" "Mixed" "Cold War" 2
 procon.protected.maps.add "MIXED" "levels/mp_001sr" "Mixed" "Panama Canal" 1
 procon.protected.maps.add "MIXED" "levels/mp_002sr" "Mixed" "Valparaíso" 1
 procon.protected.maps.add "MIXED" "levels/mp_005sr" "Mixed" "Atacama Desert" 1
@@ -683,17 +682,42 @@ procon.protected.maps.add "MIXED" "levels/nam_mp_006sdm" "Mixed" "Phu Bai Valley
 procon.protected.maps.add "MIXED" "levels/nam_mp_007sdm" "Mixed" "Operation Hastings" 0
 
 
-// Vietnam
+// Teams Rush
 
-procon.protected.maps.add "MIXED" "levels/nam_mp_002cq" "Mixed" "Vantage Point" 0
-procon.protected.maps.add "MIXED" "levels/nam_mp_003cq" "Mixed" "Hill 137" 0
-procon.protected.maps.add "MIXED" "levels/nam_mp_005cq" "Mixed" "Cao Son Temple" 0
-procon.protected.maps.add "MIXED" "levels/nam_mp_006cq" "Mixed" "Phu Bai Valley" 0
-procon.protected.maps.add "MIXED" "levels/nam_mp_007cq" "Mixed" "Operation Hastings" 0
+procon.protected.teamnames.add "levels/air_mp_006" 0 "global.rush.neutral" ""
+procon.protected.teamnames.add "levels/air_mp_006" 1 "global.rush.defenders" "us.png"
+procon.protected.teamnames.add "levels/air_mp_006" 2 "global.rush.attackers" "nva.png"
 
-procon.protected.maps.add "MIXED" "levels/nam_mp_002r" "Mixed" "Vantage Point" 0
-procon.protected.maps.add "MIXED" "levels/nam_mp_003r" "Mixed" "Hill 137" 0
-procon.protected.maps.add "MIXED" "levels/nam_mp_005r" "Mixed" "Cao Son Temple" 0
-procon.protected.maps.add "MIXED" "levels/nam_mp_006r" "Mixed" "Phu Bai Valley" 0
-procon.protected.maps.add "MIXED" "levels/nam_mp_007r" "Mixed" "Operation Hastings" 0
+procon.protected.teamnames.add "levels/mp_sp_003gr" 0 "global.rush.neutral" ""
+procon.protected.teamnames.add "levels/mp_sp_003gr" 1 "global.rush.defenders" "us.png"
+procon.protected.teamnames.add "levels/mp_sp_003gr" 2 "global.rush.attackers" "nva.png"
 
+// Teams Conquest
+
+procon.protected.teamnames.add "levels/air_mp_sp_001cq" 0 "global.conquest.neutral" ""
+procon.protected.teamnames.add "levels/air_mp_sp_001cq" 1 "global.conquest.us" "us.png"
+procon.protected.teamnames.add "levels/air_mp_sp_001cq" 2 "global.conquest.ru" "ru.png"
+
+procon.protected.teamnames.add "levels/air_mp_sp_004cq" 0 "global.conquest.neutral" ""
+procon.protected.teamnames.add "levels/air_mp_sp_004cq" 1 "global.conquest.us" "us.png"
+procon.protected.teamnames.add "levels/air_mp_sp_004cq" 2 "global.conquest.ru" "ru.png"
+
+procon.protected.teamnames.add "levels/mp_sp_001cq" 0 "global.conquest.neutral" ""
+procon.protected.teamnames.add "levels/mp_sp_001cq" 1 "global.conquest.us" "us.png"
+procon.protected.teamnames.add "levels/mp_sp_001cq" 2 "global.conquest.ru" "ru.png"
+
+procon.protected.teamnames.add "levels/mp_sp_004cq" 0 "global.conquest.neutral" ""
+procon.protected.teamnames.add "levels/mp_sp_004cq" 1 "global.conquest.us" "us.png"
+procon.protected.teamnames.add "levels/mp_sp_004cq" 2 "global.conquest.ru" "ru.png"
+
+procon.protected.teamnames.add "levels/mp_sp_006cq" 0 "global.conquest.neutral" ""
+procon.protected.teamnames.add "levels/mp_sp_006cq" 1 "global.conquest.us" "us.png"
+procon.protected.teamnames.add "levels/mp_sp_006cq" 2 "global.conquest.ru" "ru.png"
+
+procon.protected.teamnames.add "levels/mp_sp_008" 0 "global.conquest.neutral" ""
+procon.protected.teamnames.add "levels/mp_sp_008" 1 "global.conquest.us" "us.png"
+procon.protected.teamnames.add "levels/mp_sp_008" 2 "global.conquest.ru" "ru.png"
+
+procon.protected.teamnames.add "levels/mp_napimap_001" 0 "global.conquest.neutral" ""
+procon.protected.teamnames.add "levels/mp_napimap_001" 1 "global.conquest.us" "us.png"
+procon.protected.teamnames.add "levels/mp_napimap_001" 2 "global.conquest.ru" "ru.png"
