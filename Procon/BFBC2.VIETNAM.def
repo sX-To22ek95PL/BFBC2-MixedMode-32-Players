@@ -137,6 +137,70 @@ procon.protected.maps.add "SQDM" "levels/nam_mp_005sdm" "Squad Deathmatch" "Cao 
 procon.protected.maps.add "SQDM" "levels/nam_mp_006sdm" "Squad Deathmatch" "Phu Bai Valley" 0
 procon.protected.maps.add "SQDM" "levels/nam_mp_007sdm" "Squad Deathmatch" "Operation Hastings" 0
 
+// Mixed Playlist for modded server
+
+// BC2
+procon.protected.maps.add "MIXED" "levels/mp_001" "Mixed" "Panama Canal" 1
+procon.protected.maps.add "MIXED" "levels/mp_003" "Mixed" "Laguna Alta" 1
+procon.protected.maps.add "MIXED" "levels/mp_005" "Mixed" "Atacama Desert" 1
+procon.protected.maps.add "MIXED" "levels/mp_006cq" "Mixed" "Arica Harbor" 1
+procon.protected.maps.add "MIXED" "levels/mp_007" "Mixed" "White Pass" 1
+procon.protected.maps.add "MIXED" "levels/mp_008cq" "Mixed" "Nelson Bay" 1
+procon.protected.maps.add "MIXED" "levels/mp_009cq" "Mixed" "Laguna Presa" 1
+procon.protected.maps.add "MIXED" "levels/mp_012cq" "Mixed" "Port Valdez" 1
+procon.protected.maps.add "MIXED" "levels/bc1_harvest_day_cq" "Mixed" "Harvest Day" 1
+procon.protected.maps.add "MIXED" "levels/bc1_oasis_cq" "Mixed" "Oasis" 1
+procon.protected.maps.add "MIXED" "levels/mp_sp_005cq" "Mixed" "Heavy Metal" 1
+procon.protected.maps.add "MIXED" "levels/mp_002" "Mixed" "Valparaíso" 2
+procon.protected.maps.add "MIXED" "levels/mp_004" "Mixed" "Isla Inocentes" 2
+procon.protected.maps.add "MIXED" "levels/mp_006" "Mixed" "Arica Harbor" 2
+procon.protected.maps.add "MIXED" "levels/mp_007gr" "Mixed" "White Pass" 2
+procon.protected.maps.add "MIXED" "levels/mp_008" "Mixed" "Nelson Bay" 2
+procon.protected.maps.add "MIXED" "levels/mp_009gr" "Mixed" "Laguna Presa" 2
+procon.protected.maps.add "MIXED" "levels/mp_012gr" "Mixed" "Port Valdez" 2
+procon.protected.maps.add "MIXED" "levels/mp_005gr" "Mixed" "Atacama Desert" 2
+procon.protected.maps.add "MIXED" "levels/bc1_harvest_day_gr" "Mixed" "Harvest Day" 2
+procon.protected.maps.add "MIXED" "levels/bc1_oasis_gr" "Mixed" "Oasis" 2
+procon.protected.maps.add "MIXED" "levels/mp_sp_002gr" "Mixed" "Cold War" 2
+procon.protected.maps.add "MIXED" "levels/mp_001sr" "Mixed" "Panama Canal" 1
+procon.protected.maps.add "MIXED" "levels/mp_002sr" "Mixed" "Valparaíso" 1
+procon.protected.maps.add "MIXED" "levels/mp_005sr" "Mixed" "Atacama Desert" 1
+procon.protected.maps.add "MIXED" "levels/mp_009sr" "Mixed" "Laguna Presa" 1
+procon.protected.maps.add "MIXED" "levels/mp_012sr" "Mixed" "Port Valdez" 1
+procon.protected.maps.add "MIXED" "levels/mp_003sr" "Mixed" "Laguna Alta" 1
+procon.protected.maps.add "MIXED" "levels/bc1_harvest_day_sr" "Mixed" "Harvest Day" 1
+procon.protected.maps.add "MIXED" "levels/bc1_oasis_sr" "Mixed" "Oasis" 1
+procon.protected.maps.add "MIXED" "levels/mp_sp_002sr" "Mixed" "Cold War" 1
+procon.protected.maps.add "MIXED" "levels/mp_001sdm" "Mixed" "Panama Canal" 1
+procon.protected.maps.add "MIXED" "levels/mp_004sdm" "Mixed" "Isla Inocentes" 1
+procon.protected.maps.add "MIXED" "levels/mp_006sdm" "Mixed" "Arica Harbor" 1
+procon.protected.maps.add "MIXED" "levels/mp_007sdm" "Mixed" "White Pass" 1
+procon.protected.maps.add "MIXED" "levels/mp_009sdm" "Mixed" "Laguna Presa" 1
+procon.protected.maps.add "MIXED" "levels/mp_008sdm" "Mixed" "Nelson Bay" 1
+procon.protected.maps.add "MIXED" "levels/bc1_harvest_day_sdm" "Mixed" "Harvest Day" 1
+procon.protected.maps.add "MIXED" "levels/bc1_oasis_sdm" "Mixed" "Oasis" 1
+procon.protected.maps.add "MIXED" "levels/mp_sp_002sdm" "Mixed" "Cold War" 1
+procon.protected.maps.add "MIXED" "levels/mp_sp_005sdm" "Mixed" "Heavy Metal" 1
+procon.protected.maps.add "MIXED" "levels/nam_mp_002cq" "Mixed" "Vantage Point" 0
+procon.protected.maps.add "MIXED" "levels/nam_mp_003cq" "Mixed" "Hill 137" 0
+procon.protected.maps.add "MIXED" "levels/nam_mp_005cq" "Mixed" "Cao Son Temple" 0
+procon.protected.maps.add "MIXED" "levels/nam_mp_006cq" "Mixed" "Phu Bai Valley" 0
+procon.protected.maps.add "MIXED" "levels/nam_mp_007cq" "Mixed" "Operation Hastings" 0
+procon.protected.maps.add "MIXED" "levels/nam_mp_002r" "Mixed" "Vantage Point" 0
+procon.protected.maps.add "MIXED" "levels/nam_mp_003r" "Mixed" "Hill 137" 0
+procon.protected.maps.add "MIXED" "levels/nam_mp_005r" "Mixed" "Cao Son Temple" 0
+procon.protected.maps.add "MIXED" "levels/nam_mp_006r" "Mixed" "Phu Bai Valley" 0
+procon.protected.maps.add "MIXED" "levels/nam_mp_007r" "Mixed" "Operation Hastings" 0
+procon.protected.maps.add "MIXED" "levels/nam_mp_002sr" "Mixed" "Vantage Point" 0
+procon.protected.maps.add "MIXED" "levels/nam_mp_003sr" "Mixed" "Hill 137" 0
+procon.protected.maps.add "MIXED" "levels/nam_mp_005sr" "Mixed" "Cao Son Temple" 0
+procon.protected.maps.add "MIXED" "levels/nam_mp_006sr" "Mixed" "Phu Bai Valley" 0
+procon.protected.maps.add "MIXED" "levels/nam_mp_007sr" "Mixed" "Operation Hastings" 0
+procon.protected.maps.add "MIXED" "levels/nam_mp_002sdm" "Mixed" "Vantage Point" 0
+procon.protected.maps.add "MIXED" "levels/nam_mp_003sdm" "Mixed" "Hill 137" 0
+procon.protected.maps.add "MIXED" "levels/nam_mp_005sdm" "Mixed" "Cao Son Temple" 0
+procon.protected.maps.add "MIXED" "levels/nam_mp_006sdm" "Mixed" "Phu Bai Valley" 0
+procon.protected.maps.add "MIXED" "levels/nam_mp_007sdm" "Mixed" "Operation Hastings" 0
 
 procon.protected.teamnames.clear
 // Conquest
